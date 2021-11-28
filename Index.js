@@ -33,8 +33,8 @@ miltos.on('messageReactionAdd', async (reaction, user)=> {
   if(user.bot) return;
   if(!reaction.message.guild) return;
 
-    if(reaction.message.channel.id === "903315015124271105") { //to id pp einai to embed
-    const staffid= reaction.message.guild.roles.cache.get("910920499457040457") // to id tou staff team
+    if(reaction.message.channel.id === "CHANNEL ID") { //to id pp einai to embed
+    const staffid= reaction.message.guild.roles.cache.get("Role ID") // to id tou staff team
   if(reaction.emoji.name === "📞") {
           reaction.users.remove(user);
         
